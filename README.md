@@ -1,9 +1,8 @@
+RAF Responsive Ajax Filesystem
+Version: 1.0
 
 ![Alt text](raf.jpg?raw=true "RAF")
 
------ RAF Responsive Ajax Filesystem -----
-
------ Versions: 1.0 -----
 
 ----- Content: 4 files, 2 folders -----
 * index.php 
