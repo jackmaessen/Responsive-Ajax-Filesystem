@@ -63,10 +63,8 @@ Script is tested on php version 7.2
 
 <h3>Demo</h3>
 
-http://raf.webprofis.nl
-
-Username: user1
-
+http://raf.webprofis.nl<br />
+Username: user1<br />
 Password: password1
 
 
