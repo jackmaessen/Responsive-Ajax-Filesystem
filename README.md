@@ -39,7 +39,7 @@
 
 ----- Styling: -----
 * Bootstrap styling
-* Responsible
+* Responsive
 
 ----- Settings: -----
 * Set username and passowrd for login
