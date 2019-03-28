@@ -39,6 +39,7 @@
 
 ----- Styling: -----
 * Bootstrap styling
+* Font Awesome icons
 * Responsive
 
 ----- Settings: -----
