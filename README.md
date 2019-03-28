@@ -69,7 +69,7 @@ Password: password1
 
 
 ********************************
-If you find any bugs, vulnerabilities, or imperfections: please let me know!
+If you find any bugs, vulnerabilities, or imperfections: please let me know!<br />
 Improvements and suggestions are also welcome!
 Thanks for reporting.
 
