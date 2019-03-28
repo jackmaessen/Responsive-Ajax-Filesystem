@@ -4,7 +4,7 @@
 ![Alt text](raf.jpg?raw=true "RAF")
 
 
------ Content: 4 files, 2 folders -----
+<b>Content: 4 files, 2 folders</b> 
 * index.php 
 * login.php 
 * logout.php 
@@ -12,7 +12,7 @@
 * alerts
 * css 
 
------Script possibilities -----
+<b>Script possibilities</b>
 * Upload multiple files via drag & drop and browse
 * Create directories and subdirectories
 * Rename files and directories
@@ -26,7 +26,7 @@
 * Live search folders & files in each directory 
 * Sort function: Name, Extension, Size 
 
------ More Features: -----
+<b>More Features:</b>
 * Storage progressbar 
 * Breadcrumbs for current path
 * Breadcrumbs navigation
@@ -39,12 +39,12 @@
 * All requests are AJAX
 * Protected with simple login
 
------ Styling: -----
+<b>Styling:</b>
 * Bootstrap styling
 * Font Awesome icons
 * Responsive
 
------ Settings: -----
+<b>Settings:</b>
 * Set username and passowrd for login
 * Limit max upload size
 * Limit available storage
@@ -53,7 +53,7 @@
 * Choose which files get a view icon for the modal popup
 * Show (available) storage with progressbar: yes or no
 
------ How to use: -----
+<b>How to use:</b>
 * Open file settings.php with an editor and set the lines to your own need
 * Upload the 4 files and the 2 folders to a directory of your choice on the webserver
 * Go to url where the files are stored and browse to index.php ( e.g. if files stored in your root: http://yourdomain.com/index.php) 
@@ -61,7 +61,7 @@
 
 Script is tested on php version 7.2
 
------ Demo-----
+<h3>Demo</h3>
 
 http://raf.webprofis.nl
 
@@ -75,10 +75,8 @@ If you find any bugs, vulnerabilities, or imperfections: please let me know!
 Improvements and suggestions are also welcome!
 Thanks for reporting.
 
-Jack Maessen
-
-Email: jcmg.maessen@gmail.com
-
+Jack Maessen<br />
+Email: jcmg.maessen@gmail.com<br />
 The Netherlands
 
 ********************************
