@@ -1,5 +1,5 @@
-RAF Responsive Ajax Filesystem
-Version: 1.0
+<h1>RAF Responsive Ajax Filesystem</h1>
+<h2>Version: 1.0</h2>
 
 ![Alt text](raf.jpg?raw=true "RAF")
 
