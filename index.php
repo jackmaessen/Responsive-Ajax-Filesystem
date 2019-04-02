@@ -1146,7 +1146,7 @@ exit; // prevent loading entire page in the echo
 				<tr>
 					<td>
 						<!-- CHECKALL CHECKBOX -->						
-						<input type="checkbox" title="check All" id="checkAll" class="rafcheckbox checkAll" value="checkAll">
+						<input type="checkbox" title="check All" id="checkAll" class="checkAll" value="checkAll">
 						<label for="checkAll" class="checkAll"></label>							
 					</td>	
 						<?php 				
@@ -1746,7 +1746,9 @@ exit; // prevent loading entire page in the echo
 		
 		// checkbox check all 
 		$(document).on('change' , '.checkAll' , function() {			 
-			 $('input:checkbox').not(this).prop('checked', this.checked);			  
+		  $('input:checkbox').not(this).prop('checked', this.checked);
+		  $('.cb-buttons').toggleClass('hide', $('.rafcheckbox:checked').length < 1);
+		  $('.row-buttons').toggleClass('down-50', $('.rafcheckbox:checked').length > 0);
 		 });
 		
 		// show/hide action buttons for checkboxes
