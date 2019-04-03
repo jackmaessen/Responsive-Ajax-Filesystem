@@ -1153,6 +1153,11 @@ exit; // prevent loading entire page in the echo
 						// Count Folders & Files
 						$numberTotal = count(scandir($dir)) -2;	// exclude "./" and "../"
 						$numberFolders = count(glob($dir . '/*', GLOB_ONLYDIR));
+						// don't count 'tmp' folder in Mainfolder
+						if(file_exists($MainFolderName . '/tmp') && $dir ==  $MainFolderName) {
+							$numberTotal = $numberTotal - 1;
+							$numberFolders = $numberFolders - 1;
+						}
 						$numberFiles = $numberTotal - $numberFolders;
 						?>
 					<td class="td-general-info">							
