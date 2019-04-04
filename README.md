@@ -3,7 +3,7 @@
 
 ![Alt text](raf.jpg?raw=true "RAF")
 
-<b>RAF is a webbased filesystem written in PHP</b>
+<h2>RAF is a webbased filesystem written in PHP</h2>
 
 <b>Content: 4 files, 2 folders</b> 
 * index.php 
