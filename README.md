@@ -57,7 +57,7 @@
 <b>How to use:</b>
 * Open file settings.php with an editor and set the lines to your own need
 * Upload the 4 files and the 2 folders to a directory of your choice on the webserver
-* Go to url where the files are stored and browse to index.php ( e.g. if files stored in your root: http://yourdomain.com/index.php) 
+* Go to url where the files are stored and browse to index.php ( e.g. if files stored in your root: http://example.com/index.php) 
 * Login with the username and password you did set in settings.php (default: user1 and password1)
 
 Script is tested on php version 7.2
