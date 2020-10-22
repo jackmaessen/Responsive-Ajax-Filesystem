@@ -1403,12 +1403,7 @@ exit; // prevent loading entire page in the echo
 									<h4><?php echo basename($dir . '/' . $file); ?></h4>
 									<form class="rafform" method="post" action="">
 										<input type="hidden" name="editfile" value="<?php echo $dir . '/' . $file; ?>" />
-										<textarea name="editcontent">
-											<?php
-													//echo file_get_contents($dir . '/' . $file); // get the contents, and echo it out.
-													readfile($dir . '/' . $file);
-											?> 
-										</textarea>
+										<textarea name="editcontent"><?php readfile($dir . '/' . $file); ?></textarea>
 										<br /><br />
 										<input type="submit" class="submitmodal edit btn " value="Update" />
 									</form>
